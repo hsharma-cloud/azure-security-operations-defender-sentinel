@@ -140,6 +140,57 @@ terraform apply
 
 ---
 
+
+## 📸 Architecture & Security Implementation
+
+### 🏗️ Terraform Deployment
+
+#### Validate
+![Validate](./screenshots/01-terraform-validate-success.png)
+
+#### Plan
+![Plan](./screenshots/02-terraform-plan-success.png)
+
+#### Core Infrastructure
+![Core](./screenshots/terraform-apply-core-infra-succeeded.png)
+
+#### Log Analytics
+![Log Analytics](./screenshots/terraform-apply-log-analytics-succeeded.png)
+
+#### Defender for Cloud
+![Defender](./screenshots/terraform-apply-defender-enabled-succeeded.png)
+
+#### Detection Rule
+![Detection](./screenshots/terraform-apply-detection-rule-succeeded.png)
+
+---
+
+### 🛡️ Web Application Firewall (WAF)
+![WAF](./screenshots/secops-waf-enabled-succeeded.png)
+
+---
+
+### 📦 Azure Container Registry (ACR) - RBAC
+![ACR RBAC](./screenshots/secops-acr-rbac-security-analyst.png)
+
+---
+
+### 🚀 Container App Deployment
+![Container App Creation](./screenshots/secops-containerapp-creation.png)
+
+---
+
+### 📊 Container App Monitoring
+![Container Monitoring](./screenshots/secops-containerapp-monitoring.png)
+
+
+
+
+
+
+
+
+
 ## 🧠 Lessons Learned
 
 - Terraform state management is critical  
