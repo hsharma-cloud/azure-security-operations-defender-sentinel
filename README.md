@@ -236,7 +236,18 @@ terraform apply
 ![Network](./screenshots/secops-keyvault-network.png)
 ![Rotation](./screenshots/secops-keyvault-rotation.png)
 
+---
 
+### 🧩 Resource & Network Overview
+
+#### 📁 Resource Group
+![Resource Group](./screenshots/rg-secops-storage-dev.png)
+
+#### 💾 Storage Account
+![Storage Account](./screenshots/secopsstorage001.png)
+
+#### 🌐 Network Security Group (NSG)
+![NSG Overview](./screenshots/nsg-secops-lab-dev.png)
 
 
 
